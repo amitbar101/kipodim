@@ -1,0 +1,13 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  background-color: antiquewhite;
+}
+
+.right-label{
+    text-align: right;
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,32 @@
+.jewelry-header{
+background-color: blanchedalmond;
+}
+
+
+.jewelry-info{
+text-align: right;
+}
+
+.jewelrys-container {
+    display: flex;
+    justify-content: center;
+    width: 474px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jewlery-card {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    background-color: lightsalmon;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity  1.7s ease-in;
+}
+
+.jewlery-img {
+    width: 80px;
+    height: 80px;
+}

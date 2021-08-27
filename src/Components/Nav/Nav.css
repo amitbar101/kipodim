@@ -1,0 +1,10 @@
+.top-nav{
+    background-color: rgb(221, 24, 24);
+    display: inline;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
