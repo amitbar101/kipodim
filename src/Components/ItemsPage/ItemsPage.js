@@ -1,5 +1,5 @@
 import "./ItemsPage.css";
-import Items from "../Items";
+import Items from "./Items";
 import { myHash } from "./ItemsInfo";
 
 

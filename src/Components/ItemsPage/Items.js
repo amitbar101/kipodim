@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
-import Cards from './Cards/Cards';
-import {getItems} from '../api'
+import Cards from '../Cards/Cards';
+import {getItems} from '../../api'
 
 
 function Items(props) {
