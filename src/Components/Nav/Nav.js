@@ -23,9 +23,6 @@ function Nav() {
         <Link to="/workshops">
           <li>סדנאות</li>
         </Link>
-        <Link to="/blog">
-          <li>בלוג</li>
-        </Link>
       </ul>
     </nav>
   );

@@ -1,0 +1,23 @@
+.cards-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  margin: 30px;
+}
+
+.name {
+  margin: 5px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.price {
+  margin: 5px;
+}

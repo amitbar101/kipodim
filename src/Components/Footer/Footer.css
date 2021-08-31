@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: antiquewhite;
+  }
+  
+  .right-label{
+      text-align: right;
+      padding: 10px;
+      margin: 0;
+  }
+
+  .facebook-img{
+      width: 20px;
+      height: 20px;
+  }
