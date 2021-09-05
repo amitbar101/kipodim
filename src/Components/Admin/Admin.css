@@ -1,0 +1,22 @@
+.order-cards-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  .order-card {
+    margin: 20px;
+    border-radius: 25px;
+    background: #f0e5f6;
+    padding: 20px;
+
+  }
+
+  .order-card-status-closed{
+    background: #ec6d6d;
+
+  }
+  
+  
+  

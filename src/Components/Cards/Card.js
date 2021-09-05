@@ -1,7 +1,6 @@
 import "./Cards.css";
 
 function Card(props) {
-  console.log(process.env.PUBLIC_URL + `${props.imgURL}`);
   return (
     <div className="card">
       <img

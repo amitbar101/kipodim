@@ -8,6 +8,8 @@ import Workshops from "./Components/Workshops/Workshops";
 import Footer from "./Components/Footer/Footer";
 import ItemsPage from "./Components/ItemsPage/ItemsPage";
 import CategoriesPage from "./Components/Categories/CategoriesPage";
+import Admin from "./Components/Admin/Admin";
+import Orders from "./Components/Admin/Orders";
 
 const allRoutes = [
   { path: "/", isExact: true, Component: Home },
@@ -24,10 +26,16 @@ const allRoutes = [
   { path: "/collections/mugs", isExact: false, Component: ItemsPage },
   { path: "/collections/bowls", isExact: false, Component: ItemsPage },
   { path: "/collections/garden", isExact: false, Component: ItemsPage },
-  { path: "/collections/mahsan", isExact: false, Component: ItemsPage },
+  { path: "/admin", isExact: true, Component: Admin },
+  { path: "/admin/orders", isExact: true, Component: Orders },
 ];
 
 function App() {
+  const getLastItem = (thePath) =>
+    thePath.substring(thePath.lastIndexOf("/") + 1);
+
+  const thePath = getLastItem(window.location.href);
+
   return (
     <div className="App">
       <Router>
@@ -43,8 +51,8 @@ function App() {
             />
           ))}
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

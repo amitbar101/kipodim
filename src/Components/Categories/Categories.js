@@ -11,7 +11,7 @@ function Categories(props) {
 
   return (
     <div className="categories">
-      {[...categoriesList, ...categoriesList, ...categoriesList, ...categoriesList, ...categoriesList, ...categoriesList].map((category) => (
+      {categoriesList.map((category) => (
         <Link to={`/${categoriesName}/${category.path}`}>
           <CategoryCard name={category.name} imgURL={category.imgURL} />
         </Link>
